@@ -11,7 +11,7 @@ The main differences between interfaces and types in Typescript are:
 
 1. Union Types: Union types allow varible to hold multiple types you can use a value of any of the types provided in the union.
 
-  # Example: 
+### Example:
   
             type StringOrBoolean = string | boolean
             let value: StringOrBoolean
@@ -20,7 +20,7 @@ The main differences between interfaces and types in Typescript are:
 
 2. Intersection Types: An intersection type combines multiple types into one and the varible must use all the propertive given in the intersection types otherwise it will throw error
 
-  # Example: 
+### Example:
 
             type Person = { name: string }
             type Address = { street: string}
